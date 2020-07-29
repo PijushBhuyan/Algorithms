@@ -55,7 +55,7 @@ void mergeSort(int *A,int *A_temp, int p, int r)    // function which runs merge
 }
 void mergeSortDriver(int *A, int n)                 // mergesort driver function
 {
-    int *A_temp = new int[n];
+    int *A_temp = new int[n];                       // allocate array A_temp with same size , used as extra space required during merging
     mergeSort(A,A_temp,0,n-1);
 }
 
