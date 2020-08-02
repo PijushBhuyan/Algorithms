@@ -1,3 +1,8 @@
+/*
+    CPP Program to solve greedy fractional knapsack problem 
+    Author- Pijush Bhuyan
+    Created on - 01/08/2020
+*/
 #include<iostream>
 #include<algorithm>
 using namespace std;
