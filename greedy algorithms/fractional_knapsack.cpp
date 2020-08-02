@@ -23,7 +23,7 @@ float greedyKnapsack(item a[],int n,float W)            // greedy algorithm for 
     int i;
     for(i=0;i<n;i++)
     {
-        if(W>0 && a[i].weight<=W )                      // 1st fill up items that fill as a whole into the knapsack
+        if(W>0 && a[i].weight<=W )                      // first fill up items that fill as a whole into the knapsack
         {
             Value += a[i].value;
             W-=a[i].weight;
