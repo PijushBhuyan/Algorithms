@@ -31,10 +31,7 @@ int matrixChainDP(int p[],int n)
 
 int main()
 {
-    int p[11];
-    printf("Enter the dimension array for 10 matrices:\n");
-    for(int i=0;i<=10;i++)
-        scanf("%d",&p[i]);
+    int p[11] = {10,15,20,25,30,35,40,45,50,55,60}      // dimensions of 10 matrices A[1] to A[10] with dimenison of A[i] = p[i-1]xp[i], i>=1
     printf("The optimal no of scalar multiplications is : %d",matrixChainDP(p,10));
 
     return 0;
